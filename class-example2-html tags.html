@@ -24,6 +24,54 @@
         <span id="span">This</span>
         <span>is</span>
         <span>text</span>
-        <span>in a SPAN</span><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <span>in a SPAN</span><br/><br/><br/>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li><!-- has default bullet in CSS which can be changed-- click inspect to understand more about this-->
+            <li>Item 3</li>
+        </ul>
+        <ol>
+            <li>Item 1</li><!-- can have anything like letters or roman letters. It can aso have list within a list and browser will space it giving tab spaces-->
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <table><!-- will line things within the columns depending on the no. of characters-->
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Employee Number</th>
+            </tr>
+            <tr>
+                <td>First Name 1</td>
+                <td></td>
+                <td>123</td>
+            </tr>
+            <tr>
+                <td>First Name 2</td>
+                <td>Last Name 2</td>
+                <td>1234</td>
+            </tr>
+            <tr>
+                <td>First Name 3</td>
+                <td>Last Name 3</td>
+                <td>12345</td>
+                <td>Test with no td</td><!-- can have extra data though the header is not declared-->
+            </tr>
+        </table>
+        <input type="text" value="default" placeholder="Name" />
+        <input type="checkbox" checked="checked" />
+        <input type="radio" name="radioGroupName" /><!-- with this name multiple radio buttons also allow only one to be selected at a time-->
+        <input type="password" />
+        <input type="color" />
+        <input type="date" />
+        <input type="datetime" /><!--not supported in chrome-->
+        <input type="email" /><!-- for phones which give the keypad with @ symbol-->
+        <input type="number" />
+        <input type="range" min="10" max="30"/><!-- this will not display the number of the range unless we use Javascript-->
+        <input type="tel" />
+        <input type="time" />
+        <input type="url" /><!--for mobile devices that give extra key on the keyboard with .com-->
+        <input type="week" />
+
     </body>
 </html>
