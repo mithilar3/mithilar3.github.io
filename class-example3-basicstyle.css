@@ -1,0 +1,44 @@
+body{
+    background-color:red;
+    color:blue;
+    font-weight:200;
+    font-style:italic;
+    text-decoration:underline;
+    font-family:cursive;
+    font-size:2wh;
+}
+
+*{font-weight:normal;
+}
+
+.container{
+    display:inline-block;
+    width:50%;
+    height:30vh;
+    border:5px solid black;
+    box-sizing:border-box;
+    padding:10px;
+}
+
+#left{
+    background-color:aqua;
+
+}
+
+#right{
+    background-color:purple;
+}
+p{
+    text-decoration:none;
+    background-color:green;
+    background-image:url("https://c402277.ssl.cf1.rackcdn.com/photos/2325/images/hero_full/mountains-hero.jpg?1345838509");
+    background-size:100%;
+    background-position:bottom center;
+    background-repeat:no-repeat;
+    height:75vh;
+    width:100%;
+    min-width:600px;
+    max-width:800px;
+    padding:8px;
+    border:dashed black 10px;
+}
